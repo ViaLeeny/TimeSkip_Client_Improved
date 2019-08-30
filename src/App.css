@@ -1,0 +1,507 @@
+
+/* UPDATED CSS IMPORTED FROM MASTER */
+/* DEFAULT CSS FROM CREATE REACT APP*/
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 9s linear;
+  height: 30vmin;
+  pointer-events: none;
+}
+
+.TopicPage{
+  background-color: #88a3db;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+label {
+  color: white;
+
+}
+
+.topic-container{
+  color: greenyellow;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.topic-card {
+  margin: 50px 50px 50px 50px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  /* width: 100px; */
+  padding: 30px;
+}
+
+.description { 
+  padding: 20px;
+  word-spacing: 5px;
+  line-height: 20px; 
+}
+
+.card {
+  height: 415px;
+}
+
+.choose-event{
+  font-size: 90px;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  color: rgba(128, 128, 128, 0.342);
+}
+
+
+
+.event-card{
+  margin: 50px 50px 50px 50px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: inline-block;
+  width: 60%
+}
+
+.ui.grid.five > .row.bot-army-row {
+  flex-wrap: nowrap;
+  min-height: 100%;
+}
+
+.ui.segment > .row.bot-army-row {
+  flex-wrap: nowrap;
+  min-height: 100%;
+}
+
+
+.ui.grid.five {
+  padding: 0px 20px;
+}
+
+
+.ui.grid.two > .row.bot-army-row {
+  flex-wrap: nowrap;
+  align-self: center;
+  /* min-height: 100%; */
+}
+
+
+.ui.grid.two {
+  padding: 0px 20px;
+}
+
+.gaming-timeline {
+  overflow-x: scroll;
+  min-height: 150px;
+  max-width: 100%;
+}
+
+.toTopics {
+  position: absolute;
+  right: 15px;
+}
+
+.signout{
+  background-color: #4CAF50; /* Green background */
+  border: 1px solid green; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  border-radius: 10pc;
+  cursor: pointer; /* Pointer/hand icon */
+  position: absolute; /* Float the buttons side by side */
+  right: 40px;
+  top: 20px
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.add-comment {
+  position: absolute;
+  left: 40%;
+  margin-bottom: 30px;
+}
+
+.button {
+  background-color: #4CAF50; /* Green background */
+  border: 1px solid green; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  border-radius: 10pc;
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+}
+
+
+
+.button-s {
+  position: center;
+  align-self: center;
+  top: 50%;
+  float: left;
+	width: 120px;
+	height: 45px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+	font-weight: 500;
+	color: #000;
+	background-color: #fff;
+	border: none;
+	border-radius: 45px;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+  outline: none;
+  margin: 10px;
+  top: 10px ;
+  bottom: 30px
+}
+
+.button-s:hover {
+	background-color: #2EE59D;
+	box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+	color: #fff;
+	transform: translateY(-7px);
+}
+
+.button-s:active {
+	position: relative;
+	top: 1px;
+}
+
+
+.picture {
+  height: 450px;
+  font-style: oblique;
+  width: 600px;
+  background-color: wheat;
+  align-content: center;
+  border-radius: 10px;
+  margin: 50px;
+
+}
+
+.picture:hover {
+  transform: scale(1.2);
+
+
+}
+
+.eventCard {
+  align-content: center;
+  flex-direction: column;
+}
+
+
+.description-s {
+  background: red;
+  color: peachpuff;
+  height: 100px;
+  font-size: 16px;
+  opacity: 0.6;
+  transition: 0.3s;
+  border-radius: 15px;
+  margin: 0 auto;
+  width: 60%;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px
+
+
+}
+
+.description-s:hover {
+  background: peachpuff;
+  color: red;
+  opacity: 1;
+}
+
+.date {
+  font-size: 20px;
+  color: black;
+}
+
+.timelinecontainer {
+  align-self: center;
+}
+
+.title {
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.submit-btn {
+  width: 100px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+
+.submit-btn:hover {
+  background-color: #45a049;
+}
+
+.contribution-text {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.contribution-url {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+.contribution {
+  color: white;
+  background-image: url("https://hdwallsource.com/img/2018/2/minimal-digital-art-space-wallpaper-background-64899-67102-hd-wallpapers.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  height: 500px;
+  overflow:visible;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  margin: 0 auto;
+  width: 60%;
+  flex-wrap: nowrap;
+}
+
+.contribution-gaming {
+  color: #ffbb00;
+  background-image: url("https://kit8.net/images/thumbnails/580/386/detailed/4/gamer@2x.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  align-content: left;
+  height: 1000px;
+  overflow:visible;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.rowC{
+  padding-top: 10px
+}
+
+.contributionPic{
+  border: none;
+  width: 50%;
+  height: auto;
+  object-fit: contain;
+  padding:30px;
+  border-radius: 10px;
+}
+
+.comment{
+  color: black;
+  font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Geneva,Verdana,sans-serif;
+  font-size: 15px;
+}
+
+.comment-btn {
+    display: inline-block;
+    border: none;
+    padding: 1rem 2rem;
+    margin: 0;
+    text-decoration: none;
+    background: #0069ed;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out,
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+
+.comment-btn:hover{
+    background: #0053ba;
+}
+
+.comment-btn:hover{
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+
+.comment-btn:hover{
+    transform: scale(0.99);
+}
+
+.comment-container{
+  width: 450px;
+  border-radius: 10px;
+  margin: auto;
+  background-color: white;
+  overflow: auto;
+  box-shadow: 8px 6px 4px silver;
+  margin-bottom: 20px;
+}
+
+.comment-container:hover{
+  transform: translateY(-7px);
+  box-shadow: 0px 15px 20px cyan;
+}
+
+
+.comment-container-gaming{
+  width: 450px;
+  border-radius: 10px;
+  margin: auto;
+  background-color: white;
+  overflow: auto;
+  box-shadow: 8px 6px 4px silver;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.comment-container-gaming:hover{
+  transform: translateY(-7px);
+  box-shadow: 0px 15px 20px cyan;
+}
+
+.comment-heading{
+  color: white ;
+}
+
+.comment-user{
+  color: grey ;
+}
+
+.eventCard{
+  background-color: #2bc7ff;
+  border-radius: 15px;
+  box-shadow: 15px 10px 5px grey;
+  margin: 0 auto;
+  width: 50%;
+
+}
+
+.submit-g{
+  color: #36a148;
+  display: inline-block;
+  border: none;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  margin: 20px;
+  text-decoration: none;
+  background: #51c04e;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out,
+              transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.comment-btn-gaming {
+  display: inline-block;
+  border: none;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  margin: 10px;
+  text-decoration: none;
+  background: #629add;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out,
+              transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+
+
+
+.comment-btn-gaming:hover{
+  background: #0053ba;
+}
+
+.comment-btn-gaming:hover{
+  outline: 1px solid #fff;
+  outline-offset: -4px;
+}
+
+.comment-btn-gaming:hover{
+  transform: scale(0.99);
+}
+
+
+
+.submit-g:hover{
+  background: #0053ba;
+}
+
+.submit-g:hover{
+  outline: 1px solid #fff;
+  outline-offset: -4px;
+}
+
+.submit-g:hover{
+  transform: scale(0.99);
+}
+
+
+
