@@ -10,7 +10,6 @@ class ContributionContainer extends Component {
 
   getAuthor = cont => {
     return this.props.users.find(user => {
-      debugger;
       return user.id === cont.user_id;
     });
   };

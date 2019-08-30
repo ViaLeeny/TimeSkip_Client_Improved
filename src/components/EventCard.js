@@ -64,8 +64,8 @@ class EventCard extends React.Component {
     let eventContributions = [...this.state.contributions].filter(
       contribution => contribution.event_id === this.props.event.id
     );
-    console.log("Here are the filtered contributions for this event:");
-    console.log(eventContributions);
+    // console.log("Here are the filtered contributions for this event:");
+    // console.log(eventContributions);
     // PITFALL: I had two setState functions in one componentDidMount
     //this caused intermittant "undefined X" bugs!
     return eventContributions;
