@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import { Segment } from "semantic-ui-react";
-import uniqueId from "react-html-id";
+// import uniqueId from "react-html-id";
 const CONTRIBUTIONS_URL = `${process.env.REACT_APP_API_URL}/contributions/`;
 
 class ContributionCard_Gaming extends Component {
 
   constructor() {
     super();
-    uniqueId.enableUniqueIds(this);
+    // uniqueId.enableUniqueIds(this);
     this.state = {
       imageErrorCounter: 0
     };
@@ -52,12 +52,16 @@ class ContributionCard_Gaming extends Component {
       <div className="rowC">
         <div className="comment-container-gaming">
           <h3 className='comment-user'> User {this.props.contribution.user_id} says:</h3>
-          <p className="comment" id={this.lastUniqueId()}>
+          <p className="comment" 
+          // id={this.lastUniqueId()}
+          >
             {this.props.contribution.text}
           </p>
           {/* ROSS: Conditional rendering for image: */}
           {this.props.contribution.url !== "" ? (
-            <label htmlfor={this.nextUniqueId()}>
+            <label 
+            // htmlfor={this.nextUniqueId()}
+            >
               <img
                 alt={this.props.contribution.id}
                 src={this.props.contribution.url}
